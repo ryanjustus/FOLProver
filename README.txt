@@ -1,0 +1,1 @@
+usage: java -jar ResolutionLab.jar input.txt

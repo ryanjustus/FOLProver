@@ -1,0 +1,9 @@
+Kills(Curiosity,Tuna)?
+
+Animal(F(x)) | Loves(G(x),x).
+~Loves(x,F(x)) | Loves(G(x),x).
+~Animal(y) | ~Kills(x,y) | ~Loves(z,x).
+~Animal(x) | Loves(Jack,x).
+Kills(Jack,Tuna) | Kills(Curiosity, Tuna).
+Cat(Tuna).
+~Cat(x) | Animal(x).
